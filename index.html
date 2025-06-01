@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link rel="icon" type="image/x-icon" href="Medias_two/favicon.ico">
+    <!-- boostrap links thing -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- icons  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+ 
+<!-- Navigation Bar -->
+  <nav class="navigation sticky-top">
+    <!-- <div class="alert alert-danger alert-dismissible fade show text-center" role="alert">
+      <strong>BhooM!</strong> Check out <a href="Pages/magnitude.html" class="text-danger">latest earthquakes</a> in Myanmar!
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div> -->
+ 
+    <div class="wrapper">
+      <div class="logo"><a href="index.html"><img src="Medias/logo.jpg" alt="GeoSurge Logo"> GeoSurge</a></div>
+      <input type="radio" name="slider" id="menu-btn">
+      <input type="radio" name="slider" id="close-btn">
+      <ul class="nav-links">
+        <label for="close-btn" class="btn hbgbtn close-btn"><i class="fas fa-times"></i></label>
+        <li class="nav-item active" id="home"><a href="index.html">Home</a></li>
+ 
+        <li class="nav-item" id="naturaldisasters"><a href="Pages/natural_disasters.html" class="desktop-item">Natural Disasters</a>
+          <div class="mega-box">
+            <div class="content d-flex">
+              <div class="row">
+                <header>Earth Natural Disaster</header>
+                  <ul class="mega-links">
+                    <li class="nav-item"><a href="Pages/earthquake.html">Earthquakes</a></li>
+                    <li class="nav-item"><a href="Pages/landslides.html">Landslides</a></li>
+                  </ul>
+              </div>
+
+              <div class="row">
+                <header>Fire Natural Disaster</header>
+                  <ul class="mega-links">
+                    <li class="nav-item"><a href="Pages/volcano.html">Volcanos</a></li>
+                  </ul>
+              </div>
+ 
+              <div class="row">
+                <header>Water Natural Disasters</header>
+                  <ul class="mega-links">
+                    <li class="nav-item"><a href="Pages/floods.html">Floods</a></li>
+                    <li class="nav-item"><a href="Pages/cyclone.html">Cyclones</a></li>
+                  </ul>
+              </div>
+            </div>
+          </div>
+        </li>
+          <li class="nav-item" id="precautions"><a href="Pages/quiz.html">Quiz</a></li>
+          <li class="nav-item" id="donate"><a href="Pages/competition.html">Special Events</a></li>
+          <li class="nav-item" id="aboutus"><a href="Pages/aboutus.html">About Us</a></li>
+          <li class="nav-item" id="icon"><a href="Pages/magnitude.html"><img src="Medias_two/earthquakeicon.png" class="iconearthquake"></a></li>
+      </ul>
+     
+      <label for="menu-btn" class="btn hbgbtn menu-btn"><i class="fas fa-bars"></i></label>
+    </div>
+  </nav>
+ 
+<!-- Carousel section aka banner -->
+<div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+ 
+    <div class="carousel-inner">
+         <!-- Slide 1  -->
+        <div class="carousel-item active">
+            <div class="row d-flex h-100">
+                <div class="col-sm-12 col-md-6 d-flex c_background flex-column justify-content-center align-items-start p-5 text-white">
+                    <h1 class="fw-bold">Precautions:<br>What to <span class="h2spantext">Prepare</span><br> in Emergency Cases</h1>
+                    <p class="mt-3">
+                        Precautions are the proactive steps we take to reduce the impact of natural disasters and protect ourselves. This includes preparing an emergency kit, creating a family evacuation plan and staying updated with alerts. Being prepared not only saves lives but also helps communities recover faster.
+                    </p>
+                    <a href="Pages/earthquake.html" class="btn btn-outline-light mt-3">Learn More<i class="bi bi-arrow-right p-2"></i></a>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <img src="Medias_two/aid.jpg" class="d-block w-100 h-100 object-fit-cover" alt="Emergency Aid">
+                </div>
+            </div>
+        </div>
+ 
+   <!-- Slide 2  -->
+        <div class="carousel-item">
+            <div class="row d-flex h-100">
+                <div class="col-sm-12 col-md-6">
+                    <img src="Medias_two/nd_carousel.png" class="d-block w-100 h-100 object-fit-cover" alt="Different atural disasters">
+                </div>
+                <div class="col-sm-12 col-md-6 cc_background border border-danger justify-content-center align-items-start p-5 text-white">
+                    <h1 class="fw-bold">Natural Disasters - <br> What We Should <span class="h2spantext">All</span> Know</h1>
+                    <p class="mt-3">
+                        Natural disasters such as earthquakes, floods, hurricanes, wildfires, and tsunamis can strike without warning, causing widespread damage and endangering lives. Understanding the nature of these events and being prepared is essential for ensuring personal safety and minimizing risk.
+                    </p>
+                    <a href="Pages/natural_disasters.html" class="btn btn-outline-light mt-3">Learn More<i class="bi bi-arrow-right p-2"></i></a>
+                </div>
+            </div>
+        </div>
+ 
+     <!-- Slide 3  -->
+        <div class="carousel-item">
+            <div class="slide3-content text-center">
+                <h2 class="ls-title fw-bold text-white"><span class="h2spantext">Latest</span>  Stories</h2>
+                <p class="ls-subtitle text-white">Stay informed with the latest stories about earthquakes, floods, cyclones, volcanoes and other natural disasters affecting Myanmar.</p>
+                <div class="ls-images d-flex justify-content-center flex-wrap gap-4">
+                    <img src="Medias/lsone.PNG" alt="earthquake" class="ls-img shadow">
+                    <img src="Medias/lstwo.PNG" alt="flood" class="ls-img shadow">
+                    <img src="Medias/lsthree.PNG" alt="cyclone" class="ls-img shadow">
+                    <img src="Medias/lsfour.PNG" alt="volcano" class="ls-img shadow">
+                </div>
+                <a href="Pages/natural_disasters.html" class="btn btn-outline-light mt-3">Learn More<i class="bi bi-arrow-right p-2"></i></a>
+            </div>
+        </div>
+    </div>
+</div> 
+
+
+
+<form class="searchthing p-3" action="Pages/natural_disasters.html">
+  <input type="text" placeholder="Learn about natural disasters..." name="search2">
+  <button type="submit"><i class="fa fa-search"></i></button>
+</form>
+
+<!-- precautions section -->
+<div>
+  <h2 class="text-dark mt-5">Easy Precautions Tips for <br><span class="h2spantext2">Natural Disasters Preparedness</span></h2>
+  <div class="fs-6 text-center pb-4 text-secondary">Ways to be prepared before, after and during</div>
+
+  <div class="d-flex row justify-content-center">
+    <div class="d-flex m-5 col-lg-3 col-sm-6 col-md-2">
+      <div class="line me-4"></div>
+      <div class="d-block">
+        <text class="breadcrumbthing" data-aos="zoom-in">Earthquake preparedness ></text>
+        <div class="fs-4 fw-bold">Get Ready in Advance</div>
+        <ul>
+          <li>Create an emergency kit</li>
+          <li>Establish a meeting place</li>
+          <li>Create an emergency family plan</li>
+          <li>Do not leave heavy objects on shelves</li>
+        </ul>
+        <div class="btn btn-outline-dark1 m-3"><a href="Medias/mpwwpdf.pdf" download class="text-decoration-none text-light">Download The PDF Now!</a></div>
+        <!-- <div class="pic_pct">
+          <img src="Medias/pcteq.jpg" alt="earthquake precautions" class="shadow">
+        </div> -->
+      </div>
+    </div>
+  
+    <div class="d-flex m-5 col-lg-3 col-sm-6 col-md-2">
+      <div class="line me-4"></div>
+      <div class="d-block">
+        <text class="breadcrumbthing" data-aos="zoom-in">Cyclones preparedness ></text>
+        <div class="fs-4 fw-bold">Avoid Injuring During a Cyclone</div>
+        <ul>
+          <li>Stay informed</li>
+          <li>Unplug appliances</li>
+          <li>Lock all the doors and windows</li>
+          <li>Find the strongest part of your house</li>
+        </ul>
+        <div class="btn btn-outline-dark1 m-3"><a href="Medias/yatiposter.pdf" download class="text-decoration-none text-light">Download The PDF Now!</a></div>
+        <!-- <div class="pic_pct">
+          <img src="Medias/pctcc.jpg" alt="cyclone precautions" class="shadow">
+        </div> -->
+      </div>
+    </div>
+  
+    <div class="d-flex m-5 col-lg-3 col-sm-6 col-md-2">
+      <div class="line me-4"></div>
+      <div class="d-block">
+        <text class="breadcrumbthing" data-aos="zoom-in">Floods preparedness ></text>
+        <div class="fs-4 fw-bold">Stay Safe throughout Post-flood</div>
+        <ul>
+          <li>Check any gas leaks</li>
+          <li>Stay away from floodwaters</li>
+          <li>Clean and disinfect everything that got wet</li>
+          <!-- <li>Never enter a building surrounded by floodwaters</li> -->
+        </ul>
+        <div class="btn btn-outline-dark1 m-3 text-white"><a href="Medias/maythansinposter.pdf" download class="text-decoration-none text-light">Download The PDF Now!</a></div>
+        <!-- <div class="pic_pct">
+          <img src="Medias/pctf.jpg" alt="floods precautions" class="shadow">
+        </div> -->
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- quote  -->
+<div class="horiline ms-5"></div>
+<div class="p-4 container-fluid m-4 d-flex justify-content-center">
+    <i class="fs-2 bi bi-chat-quote-fill"></i>
+    <h2 class="text-dark m-5">We <span class="h2spantext2">cannot stop</span> natural disasters but we can arm ourselves <br> with knowledge: so many lives <span class="h2spantext2">wouldn't</span> have to be lost <br>if there <span class="h2spantext2">was enough</span> disaster preparedness.</h2>
+</div>
+ 
+<!-- accordion for natural disaster snippet -->
+<section class="nd_snippet"> 
+  <h2 class="h2text">Look Here and Relate with<span class="h2spantext"> Natural Disasters</span></h2>
+  <div class="fs-6 text-center pb-3 desc" data-aos="zoom-in">Intriguing questions to get you hooked up</div>
+
+  <br>
+
+  <!-- earthquake -->
+  <div class="accordion" id="faqAccordion">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+          <text>🏛️ When the ground suddenly trembles beneath your feet – Have you felt the shake of Uncertainty? </text>
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+            <div class="row align-items-center">
+              <div class="col-md-4">
+                <img src="Medias_two/eq2.jpg" alt="Earthquake Image" class="img-fluid rounded shadow">
+              </div>
+              <div class="col-md-8 mt-3 mt-md-0">
+                <p>Earthquakes occur when tectonic plates suddenly shift, causing intense ground shaking that can damage infrastructure and endanger lives.</p>
+                <a href="Pages/earthquake.html" class="btn btn-outline-dark mt-2">Read More<i class="bi bi-arrow-right p-2"></i></a>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- wildfire -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+          <text>🌳 Are we causing our own landslides? – Is this a consequence of deforestation?</text>
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          <div class="row align-items-center">
+            <div class="col-md-8 mt-3 mt-md-0">
+              <p>Landslides in Myanmar are becoming increasingly common due to deforestation. Steep slopes make mountainous areas particularly vulnerable to deadly landslides that can bury entire communities.</p>
+              <a href="Pages/landslides.html" class="btn btn-outline-dark mt-2">Read More<i class="bi bi-arrow-right p-2"></i></a>
+            </div>
+            <div class="col-md-4">
+              <img src="Medias/l_one.jpg" alt="landslide Image" class="img-fluid rounded shadow">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- volcano -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+          <text>🔥 If the Earth fiercely erupts – Could you escape from a volcano's rage?</text>
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+            <div class="row align-items-center">
+              <div class="col-md-4">
+                <img src="Medias_two/vcnone.jpg" alt="volcano Image" class="img-fluid rounded shadow">
+              </div>
+              <div class="col-md-8 mt-3 mt-md-0">
+                <p>Volcanic eruptions release lava, ash, and gases from deep within the Earth, reshaping landscapes and threatening nearby life.</p>
+                <a href="Pages/volcano.html" class="btn btn-outline-dark mt-2">Read More<i class="bi bi-arrow-right p-2"></i></a>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- flood -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingFour">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour">
+          <text>💧 What if human actions worsen floods? – What’s happening in Burma’s downtown area?</text>
+        </button>
+      </h2>
+      <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          <div class="row align-items-center">
+            <div class="col-md-8 mt-3 mt-md-0">
+              <p>In Myanmar (Burma), deforestation, poorly managed agriculture, and rapid urbanization have increased flood risks. When trees are cleared and wetlands drained, rainwater runs off faster.</p>
+              <a href="Pages/floods.html" class="btn btn-outline-dark mt-2">Read More<i class="bi bi-arrow-right p-2"></i></a>
+            </div>
+            <div class="col-md-4">
+              <img src="Medias_two/flood.jpg" alt="flood Image" class="img-fluid rounded shadow">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- cyclone -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingFive">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive">
+          <text>💨 Why are cyclones so deadly in coastal areas like Myanmar? - Are cyclones that bad?</text>
+        </button>
+      </h2>
+      <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+            <div class="row align-items-center">
+              <div class="col-md-4">
+                <img src="Medias_two/clone.jpg" alt="cyclone Image" class="img-fluid rounded shadow">
+              </div>
+              <div class="col-md-8 mt-3 mt-md-0">
+                <p>Cyclones bring intense winds, heavy rains, and deadly storm surges. In coastal regions of Myanmar, where communities often live in low-lying areas with limited infrastructure, these storms can lead to massive flooding and displacement—like the devastating Cyclone Nargis in 2008.</p>
+                <a href="Pages/cyclone.html" class="btn btn-outline-dark mt-2">Read More<i class="bi bi-arrow-right p-2"></i></a>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</section>
+ 
+
+<!-- Our purpose section  -->
+<h2 class="text-dark mt-5">Our <span class="h2spantext2">Purpose</span></h2>
+    <div class="fs-6 text-center pb-5 text-secondary" data-aos="zoom-in">The purpose of making this website</div>
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-4 col-sm-5 m-4 shadow mb-3 rounded backgroundcolor">
+                <div class="card-body">
+                    <div class="card-title fs-5"><i class="bi bi-check-circle-fill p-2"></i><b>Education and Awareness: </b></div>
+                    <p class="card-text">To inform the public about different types of natural disasters, their causes, effects, and safety measures to reduce risk and increase preparedness.</p>
+                </div>
+            </div>
+            <div class=" col-md-4 col-sm-5 m-4 shadow mb-3 rounded backgroundcolor">
+                <div class="card-body">
+                    <div class="card-title fs-5"><i class="bi bi-check-circle-fill p-2"></i><b>Emergency Preparedness:</b></div>
+                    <p class="card-text">To provide practical guidance and resources on how individuals and communities can prepare for, respond to, and recover from natural disasters.</p>
+                </div>
+            </div>
+ 
+            <div class=" col-md-4 col-sm-5 m-4 shadow mb-5 rounded backgroundcolor">
+                <div class="card-body">
+                    <div class="card-title fs-5"><i class="bi bi-check-circle-fill p-2"></i><b>Participating in Special Events </b></div>
+                    <p class="card-text">Participate in exciting events and competitions such as poster-making contests, and many more of upcoming competitions. These events not only encourage creativity but also promote teamwork and awareness among participants.</p>
+                </div>
+            </div>
+        </div>
+ 
+<!-- What we offer   -->
+<div class="textcolor d-flex justify-content-center row">
+    <h2 class="pt-5 text-center text-white h2text">What We <span class="h2spantext">Offer</span></h2>
+        <div class="fs-6 text-center pb-5 desc" data-aos="zoom-in">Why you should use our website</div>
+            <div class="card col-md-5 col-sm-6 p-5 me-2 shadow-lg mb-3 bg-body rounded animation ms-2">
+                    <div class="card-body d-flex">
+                        <div class="circle text-center"><i class="bi bi-bag-plus-fill fs-4"></i></div>
+                        <div class="card-title fs-5 ps-3 cardtext"><a href="Pages/natural_disasters.html" class="text-decoration-none text-dark"><b>Tips on Disasters Preparedness</b></a></div>
+                    </div>
+                    <p class="card-text text-start">Learn how to stay safe before, during, and after natural disasters. Get expert-like advice on emergency kits, plans, and safety measures related to hazards.</p>
+                </div>
+   
+                <div class="card col-md-5 col-sm-6 p-5 me-2 shadow-lg mb-3 bg-body rounded animation ms-2">
+                    <div class="card-body d-flex">
+                        <div class="circle text-center"><i class="bi bi-pencil-fill fs-4"></i></div>
+                        <div class="card-title fs-5 ps-3 cardtext"><a href="Pages/natural_disasters.html" class="text-decoration-none text-dark"><b>Various Short Stories</b></a></div>
+                    </div>
+                    <p class="card-text text-start">Read engaging, real-life stories about communities facing disasters, their sufferings after the aftershocks, and how awareness and preparedness changed their lives for the better.</p>
+                </div>
+   
+                <div class="card col-md-5 col-sm-6 p-5 me-2 shadow-lg mb-3 bg-body rounded animation ms-2 mb-5">
+                    <div class="card-body d-flex">
+                        <div class="circle text-center"><i class="bi bi-exclamation-octagon-fill fs-4"></i></div>
+                        <div class="card-title fs-5 ps-3 cardtext"><a href="Pages/precautions.html" class="text-decoration-none text-dark"><b>Interactive Quizzes</b></a></div>
+                    </div>
+                    <p class="card-text text-start">Stay informed with timely alerts and updates on disasters around your surroundings.</p>
+                </div>
+   
+                <div class="card col-md-5 col-sm-6 p-5 me-2 shadow-lg mb-3 bg-body rounded animation ms-2">
+                    <div class="card-body d-flex">
+                        <div class="circle text-center"><i class="bi bi-piggy-bank-fill fs-4"></i></div>
+                        <div class="card-title fs-5 ps-3 cardtext"><a href="Pages/competition.html" class="text-decoration-none text-dark"><b>Being Able to Join Competitions</b></a></div>
+                    </div>
+                    <p class="card-text text-start">Support those who were affected by natural disasters by donating directly though us. Your contribution can help save lives and rebuild communities.</p>
+                </div>
+            </div>
+      </div>
+
+<!-- Competition Event Section -->
+<section class="competition-section py-5">
+  <div class="container text-center">
+    <div class="backgroundpics d-flex justify-content-center">
+      <img src="Medias_two/cft_bg.png" alt="Confetti On Strings" class="event-icon">
+      <img src="Medias_two/cft_bg.png" alt="Confetti On Strings" class="event-icon">
+      <img src="Medias_two/cft_bg.png" alt="Confetti On Strings" class="event-icon">
+      <img src="Medias_two/cft_bg.png" alt="Confetti On Strings" class="event-icon">
+  </div>
+    <h2 class="event-heading mb-4"> Win a Poster Competition while spending <span class="highlight-text">no money!</span>
+    </h2>
+    <p class="text-muted mb-5" data-aos="zoom-in">Participate in our creative challenge to spread awareness about natural disasters and get a chance to win exciting prizes!</p>
+
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="event-card p-4">
+          <h5 class="fw-bold text-light">Design a Poster</h5>
+          <p class="small text-light">Create a digital or hand-drawn poster on natural disaster preparedness using your creativity and knowledge.</p>
+        </div>
+      </div>
+
+      <!-- Step 2 -->
+      <div class="col-md-4">
+        <div class="event-card p-4">
+          <h5 class="fw-bold text-light">Submit Your Entry</h5>
+          <p class="small text-light">Upload your poster to our website or submit it via email by the deadline to qualify for the contest.</p>
+          <div class="btn btn-outline-light"><a href="Pages/competition.html" class="text-decoration-none btn-outline-light">Take me to that page!</a></div>
+        </div>
+      </div>
+
+      <!-- Step 3 -->
+      <div class="col-md-4">
+        <div class="event-card p-4">
+          <h5 class="fw-bold text-light">Win & Get Featured</h5>
+          <p class="small text-light">Winners will be featured on our homepage and receive exclusive certificates and disaster awareness kits.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+<!-- Footer -->
+<footer class="footer">
+    <div class="row row-footer">
+        <div class="col col_footer">
+            <img src="Medias/logo.jpg" class="logo_footer" alt="GeoSurge">
+            <p>GeoSurge is committed to raising awareness about natural disasters and promoting safety awareness.</p>
+        </div>
+        <div class="col fone">
+            <h3>Location</h3>
+            <hr>
+            <p>4th Bogyoke Street</p>
+            <p>Yangon, Myanmar</p>  
+            <p class="email-id">geosurgeforthewin@gmail.com</p>
+            <h4>+95 9321283423</h4>
+        </div>
+        <div class="col fone">
+            <h3>Shortcut Navigation</h3>
+            <hr>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Pages/natural_disasters.html">Natural Disasters</a></li>
+                <li><a href="Pages/quiz.html">Quiz</a></li>
+                <li><a href="Pages/competition.html">Special Events</a></li>
+                <li><a href="Pages/aboutus.html">About us</a></li>
+            </ul>
+        </div>
+        <div class="col fone">
+            <h3>Sign Up <br> To Get Alerted</h3>
+            <hr>
+            <form>
+                <i class="bi bi-envelope"></i>
+                <input type="email" placeholder="Enter your E-mail" required>
+                <button type="submit"><i class="bi bi-arrow-right"></i></button>
+                <!-- onclick="alert('Hello world!')" -->
+            </form>
+            <div class="social-icons">
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-twitter"></i>
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-whatsapp"></i>
+            </div>
+        </div>
+    </div>
+        <hr>
+        <p class="copyright">© <a href="../references.txt" class="text-white text-decoration-none">Citation</a> | Sangria-Sapphire GeoSurge 2025 All Rights Reserved</p>
+</footer>
+<!-- End of Footer -->
+         
+         
+<!-- javascript -->
+<script>
+  // addevenlistener is used to command what the codes will when user does what
+  document.addEventListener('DOMContentLoaded',
+      function(){
+      // to select all navitems = queryselectorall
+        const  navItems = document.querySelectorAll('.nav-item');
+        console.log(navItems);
+
+      navItems.forEach( navigitem => {
+      // to add eventlistener click
+          navigitem.addEventListener('click',
+            function(){
+              navItems.forEach( navigitem => navigitem.classList.remove('active'));
+
+              this.classList.add('active');
+          });
+        });
+      });
+
+      AOS.init();
+
+</script>
+ 
+</body>
+</html>

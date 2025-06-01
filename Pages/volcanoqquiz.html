@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volcano Quiz</title>
+    <link href="../css/styletwo.css" rel="stylesheet" type="text/css">
+    <link rel="icon" type="image/x-icon" href="../Medias_two/favicon.ico">
+    <!-- boostrap links thing -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <!-- icons  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+ 
+<!-- Navigation Bar -->
+<nav class="navigation sticky-top">
+
+  <div class="wrapper">
+    <div class="logo"><a href="../index.html"><img src="../Medias/logo.jpg" alt="GeoSurge Logo"> GeoSurge</a></div>
+    <input type="radio" name="slider" id="menu-btn">
+    <input type="radio" name="slider" id="close-btn">
+    <ul class="nav-links">
+      <label for="close-btn" class="btn hbgbtn close-btn"><i class="fas fa-times"></i></label>
+      <li class="nav-item" id="home"><a href="../index.html">Home</a></li>
+      <li class="nav-item" id="naturaldisasters"><a href="natural_disasters.html" class="desktop-item">Natural Disasters</a>
+        <div class="mega-box">
+          <div class="content d-flex">
+            <div class="row">
+              <header>Earth Natural Disaster</header>
+                <ul class="mega-links">
+                  <li class="nav-item"><a href="../Pages/earthquake.html">Earthquakes</a></li>
+                  <li class="nav-item"><a href="../Pages/landslides.html">Landslides</a></li>
+                </ul>
+            </div>
+
+            <div class="row">
+              <header>Fire Natural Disaster</header>
+                <ul class="mega-links">
+                  <li class="nav-item"><a href="../Pages/volcano.html">Volcanoes</a></li>
+                </ul>
+            </div>
+
+            <div class="row">
+              <header>Water Natural Disasters</header>
+                <ul class="mega-links">
+                  <li class="nav-item"><a href="../Pages/floods.html">Floods</a></li>
+                  <li class="nav-item"><a href="../Pages/cyclone.html">Cyclones</a></li>
+                </ul>
+            </div>
+          </div>
+        </div>
+      </li>
+        <li class="nav-item active" id="precautions"><a href="../Pages/quiz.html">Quiz</a></li>
+        <li class="nav-item" id="donate"><a href="../Pages/competition.html">Special Events</a></li>
+        <li class="nav-item" id="aboutus"><a href="../Pages/aboutus.html">About Us</a></li>
+        <li class="nav-item" id="icon"><a href="../Pages/magnitude.html"><img src="../Medias_two/earthquakeicon.png" class="iconearthquake"></a></li>
+    </ul>
+   
+    <label for="menu-btn" class="btn hbgbtn menu-btn"><i class="fas fa-bars"></i></label>
+  </div>
+</nav>
+<!-- Quiz Section -->
+<div class="containder-fluid quizbg">
+  <div class="quiz-container quizconbg">
+    <div><h1>Volcano Quiz Time</h1></div>
+    <div class="timer">Time Left: <span id="time">40</span>s</div>
+    <div class="question">Question will appear here</div>
+    <div class="options"></div>
+    <div class="result">Your score: <span id="score">0</span></div>
+    <button class="return-btn" onclick="location.href='quiz.html'">Return Back <i class="bi bi-arrow-return-left"></i></button>
+  </div>
+</div>
+    
+
+  <!-- Footer -->
+<footer class="footer">
+    <div class="row row-footer">
+        <div class="col col_footer">
+            <img src="../Medias/logo.jpg" class="logo_footer" alt="GeoSurge">
+            <p>GeoSurge is committed to raising awareness about natural disasters and promoting safety awareness.</p>
+        </div>
+        <div class="col fone">
+            <h3>Location</h3>
+            <hr>
+            <p>4th Bogyoke Street</p>
+            <p>Yangon, Myanmar</p>  
+            <p class="email-id">geosurgeforthewin@gmail.com</p>
+            <h4>+95 9787497220</h4>
+        </div>
+        <div class="col fone">
+            <h3>Travel</h3>
+            <hr>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="natural_disasters.html">Natural Disasters</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+                <li><a href="competition.html">Special Events</a></li>
+                <li><a href="aboutus.html">About us</a></li>
+            </ul>
+        </div>
+        <div class="col fone">
+            <h3>Sign up <br> to get alerted</h3>
+            <hr>
+            <form>
+                <i class="bi bi-envelope"></i>
+                <input type="email" placeholder="Enter your E-mail" required>
+                <button type="submit"><i class="bi bi-arrow-right"></i></button>
+                <!-- onclick="alert('Hello world!')" -->
+            </form>
+            <div class="social-icons">
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-twitter"></i>
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-whatsapp"></i>
+            </div>
+        </div>
+    </div>
+        <hr>
+        <p class="copyright">© <a href="../references.txt" class="text-white text-decoration-none">Citation</a> | Sangria-Sapphire GeoSurge 2025 All Rights Reserved</p>
+</footer>
+<!-- End of Footer -->
+
+
+<script>
+    const quizData = [
+        {
+            question: "What is a volcano?",
+            options: ["A deep ocean trench", "A mountain that releases lava, gases, and ash", "A frozen mountain peak", " A type of earthquake"],
+            answer: "A mountain that releases lava, gases, and ash"
+        },
+        {
+            question: "What substance comes out of a volcano during an eruption?",
+            options: ["Sand", "Water", "Lava", "Snow"],
+            answer: "Lava"
+        },
+        {
+            question: "Which of the following is a common cause of volcanic eruptions?",
+            options: ["Sudden weather changes", "Movement of tectonic plates", "High-speed winds", "Solar activity"],
+            answer: "Deforestation"
+        },
+        {
+            question: "What is the opening at the top of a volcano called?",
+            options: ["Core", "Crater", "Basin", "Valley"],
+            answer: "Crater"
+        },
+        {
+            question: "Which of the following is a positive effect of volcanic eruptions?",
+            options: ["Earthquakes", "Air pollution", "Formation of fertile soil", "Flooding"],
+            answer: "Formation of fertile soil"
+        }
+    ];
+    
+   let currentQuestion = 0;
+    let score = 0;
+    let timeLeft = 40;
+    let timerInterval;
+
+    const timerEl = document.getElementById('time');
+    const questionEl = document.querySelector('.question');
+    const optionsEl = document.querySelector('.options');
+    const resultEl = document.querySelector('.result');
+    const scoreEl = document.getElementById('score');
+    const restartBtn = document.querySelector('.return-btn');
+
+    function loadQuestion() {
+        if (currentQuestion >= quizData.length) {
+            endQuiz();
+            return;
+        }
+        clearInterval(timerInterval);
+        timeLeft = 40;
+        timerEl.textContent = timeLeft;
+        startTimer();
+
+        const currentQuiz = quizData[currentQuestion];
+        questionEl.textContent = currentQuiz.question;
+        optionsEl.innerHTML = '';
+        currentQuiz.options.forEach(option => {
+            const button = document.createElement('button');
+            button.classList.add('option');
+            button.textContent = option;
+            button.onclick = () => checkAnswer(option);
+            optionsEl.appendChild(button);
+        });
+    }
+
+    function checkAnswer(selectedOption) {
+        if (selectedOption === quizData[currentQuestion].answer) {
+            score++;
+        }
+        currentQuestion++;
+        loadQuestion();
+    }
+
+    function startTimer() {
+        timerInterval = setInterval(() => {
+            timeLeft--;
+            timerEl.textContent = timeLeft;
+            if (timeLeft <= 0) {
+                clearInterval(timerInterval);
+                endQuiz();
+            }
+        }, 1000);
+    }
+
+    function endQuiz() {
+        clearInterval(timerInterval);
+        questionEl.style.display = 'none';
+        optionsEl.style.display = 'none';
+        resultEl.style.display = 'block';
+        scoreEl.textContent = score;
+        restartBtn.style.display = 'inline-block';
+    }
+
+    restartBtn.addEventListener('click', () => {
+        // Reset quiz
+        currentQuestion = 0;
+        score = 0;
+        timeLeft = 40;
+        timerEl.textContent = timeLeft;
+
+        questionEl.style.display = 'block';
+        optionsEl.style.display = 'flex';
+        resultEl.style.display = 'none';
+        restartBtn.style.display = 'none';
+
+        loadQuestion();
+    });
+
+    // Start the quiz
+    loadQuestion();
+</script>
+
+</body>
+</html>

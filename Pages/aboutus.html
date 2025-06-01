@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+
+    <link href="../css/styletwo.css" rel="stylesheet" type="text/css">
+    <link rel="icon" type="image/x-icon" href="../Medias_two/favicon.ico">
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- boostrap links thing -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <!-- icons  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navigation sticky-top">
+
+  <div class="wrapper">
+    <div class="logo"><a href="../index.html"><img src="../Medias/logo.jpg" alt="GeoSurge Logo"> GeoSurge</a></div>
+    <input type="radio" name="slider" id="menu-btn">
+    <input type="radio" name="slider" id="close-btn">
+    <ul class="nav-links">
+      <label for="close-btn" class="btn hbgbtn close-btn"><i class="fas fa-times"></i></label>
+      <li class="nav-item" id="home"><a href="../index.html">Home</a></li>
+      <li class="nav-item" id="naturaldisasters"><a href="natural_disasters.html" class="desktop-item">Natural Disasters</a>
+        <div class="mega-box">
+          <div class="content d-flex">
+            <div class="row">
+              <header>Earth Natural Disaster</header>
+                <ul class="mega-links">
+                  <li class="nav-item"><a href="../Pages/earthquake.html">Earthquakes</a></li>
+                  <li class="nav-item"><a href="../Pages/landslides.html">Landslides</a></li>
+                </ul>
+            </div>
+
+            <div class="row">
+              <header>Fire Natural Disaster</header>
+                <ul class="mega-links">
+                  <li class="nav-item"><a href="../Pages/volcano.html">Volcanoes</a></li>
+                </ul>
+            </div>
+
+            <div class="row">
+              <header>Water Natural Disasters</header>
+                <ul class="mega-links">
+                  <li class="nav-item"><a href="../Pages/floods.html">Floods</a></li>
+                  <li class="nav-item"><a href="../Pages/cyclone.html">Cyclones</a></li>
+                </ul>
+            </div>
+          </div>
+        </div>
+      </li>
+        <li class="nav-item" id="precautions"><a href="../Pages/quiz.html">Quiz</a></li>
+        <li class="nav-item" id="donate"><a href="../Pages/competition.html">Special Events</a></li>
+        <li class="nav-item active" id="aboutus"><a href="../Pages/aboutus.html">About Us</a></li>
+        <li class="nav-item" id="icon"><a href="../Pages/magnitude.html"><img src="../Medias_two/earthquakeicon.png" class="iconearthquake"></a></li>
+    </ul>
+   
+    <label for="menu-btn" class="btn hbgbtn menu-btn"><i class="fas fa-bars"></i></label>
+  </div>
+</nav>
+          <!-- Carousel -->
+
+          <div id="carouselIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            </div>
+
+            <!-- Slide -->
+
+            <div class="carousel-inner h-100">
+              <div class="carousel-item active">
+                <img src="../Medias_two/bg_one.png" class="d-block w-100 abtusc" alt="GROUP 2 Picture of AA">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>GeoSurge</h5>
+                  <p>Founded on April 23rd of 2024 by the Great Four Leaders and now leading each departments together!
+                  <br>
+                  They start from Zero to what it is now today with the idea and hope with only one goal in common.</p>
+                  <p>"The Future"</p>
+                </div>
+              </div>
+              <div class="carousel-item h-100">
+                <img src="../Medias_two/bg_two.png" class="d-block w-100 abtusc" alt="Different natural disasters">
+                <div class="carousel-caption d-none d-md-block">
+                 <h5>GeoSurge</h5>
+                 <p>GeoSurge has became one of the best News Company in Myanmar under the care of these 4 Great Leaders!
+                 <br>
+                 They are always coming up with new ideas and fresh plans to share with the world!</p>
+                 <p>"Hope"</p>
+                 </div>
+              </div>
+            </div>
+
+            <!-- Indicators -->
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+
+          </div>
+
+  <!-- End of Carousel -->
+
+
+
+
+
+      <!-- About us -->
+      <div class="mvaabtus">
+        <div id="service-section">
+            <h2>About Us</h2>
+            <p id="peragraph">Our main purpose is to focus on the Local Communities of Myanmar to inform the users how to reduce the rate of natural disaster incidents from happening and
+             to creatively engage users in joining special events while gaining more knowledge about disasters.</p>
+            <div class="cards abtuscards">
+                <!-- Mission -->
+                <div class="card abtuscard">
+                    <i class="bi bi-journal-bookmark"></i>
+                    <div class="abtuscontent">
+                        <h4>Mission</h4>
+                        <br>
+                        <p>What is GeoSurge?<br>We are one of the fast and most updated news company!</p>
+                        <hr>
+                        <p>Who are our targeted audiences?<br>The Locals in myanmar!</p>
+                        <hr>
+                        <p>How do we benefit the community?<br>We are a non-profit news company with charity works!</p>
+                    </div>
+                </div>
+                <!-- Vision -->
+                <div class="card abtuscard">
+                    <i class="bi bi-globe-asia-australia"></i>
+                    <div class="abtuscontent">
+                        <h4>Vision</h4>
+                        <br>
+                        <br>
+                        <p>To Improved for the better!</p>
+                        <p>To make quality news!</p>
+                        <p>To ensure the safety of our people!</p>
+                        <p>To benefits our community!</p>
+                    </div>
+                </div>
+                <!-- Acheivements -->
+                <div class="card abtuscard">
+                    <i class="bi bi-award"></i>
+                    <div class="abtuscontent">
+                        <h4>Acheivements</h4>
+                        <p>Throughout 2024-2025 journey, we have acheived so many great people along with awards for being one of the most sucessful yet non-profit website!</p>
+                        <p>Guinness World Record of Best non-profitable website!</p>
+                        <p>Content creation & Quality News award!</p>
+                        <p>Dogital Innovation award!</p>
+                        <p>Best National News Campaign!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- our team -->
+         <section class="team">
+        <div class="container py-5">
+            <div class="row text-center">
+                <div class="col-lg-8 mx-auto col-md-12 col-sm-12 col-12">
+                    <h1>Our Team</h1>
+                    <p>Our team that guides and assists us throughout our development journey.</p>
+                </div>
+            </div>
+            <div class="row pt-5">
+                <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                    <div class="row rowfooter"data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+                        <div class="col-lg-5 col-md-6 col-sm-6 col-6">
+                            <img src="../Medias/mtsh.png" class="img-fluid teamimg" alt="profile">
+                        </div>
+                        <div class="col-lg-7 col-md-6 col-sm-6 col-6 pt-3">
+                            <h5>May Thansin Han</h5>
+                            <small class="role">Head of News Production Department/Journalism Department</small>
+                            <p class="aboutustext">I always had this passion for producing new informations! Asking and interviewing people is like one of my best skills! Currently, I am trying my best for updated news wiith GeoSurge!</p>
+                            <span><i class="bi bi-facebook"></i></span>
+                            <span><i class="bi bi-instagram"></i></span>
+                            <span><i class="bi bi-threads"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                    <div class="row rowfooter" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+                        <div class="col-lg-5 col-md-6 col-sm-6 col-6">
+                            <img src="../Medias/mpww.jpg" class="img-fluid teamimg" alt="profile">
+                        </div>
+                        <div class="col-lg-7 col-md-6 col-sm-6 col-6 pt-3">
+                            <h5>May Phu Wathone Wai</h5>
+                            <small class="role">Head of Editorial Department/Business Department</small>
+                            <p class="aboutustext">Editing and attracting people with my designs have always been something I was professional at. I will always come up with new, fresh and unique editing styles for GeoSurge!</p>
+                            <span><i class="bi bi-facebook"></i></span>
+                            <span><i class="bi bi-instagram"></i></span>
+                            <span><i class="bi bi-threads"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-5">
+                <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                    <div class="row rowfooter" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+                        <div class="col-lg-5 col-md-6 col-sm-6 col-6">
+                            <img src="../Medias/yhm.jpg" class="img-fluid teamimg" alt="profile">
+                        </div>
+                        <div class="col-lg-7 col-md-6 col-sm-6 col-6 pt-3">
+                            <h5>Yati Hsu Mon</h5>
+                            <small class="role">Head of Legal Counsel Department/Adminstrative Department</small>
+                            <p class="aboutustext">As much as news are important, having reliable informations, and making sure everything is under control is also crucial. Always looking out for what is needed for GeoSurge!</p>
+                            <span><i class="bi bi-facebook"></i></span>
+                            <span><i class="bi bi-instagram"></i></span>
+                            <span><i class="bi bi-threads"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                    <div class="row rowfooter" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+                        <div class="col-lg-5 col-md-6 col-sm-6 col-6">
+                            <img src="../Medias_two/smyy.jpg" class="img-fluid teamimg" alt="profile">
+                        </div>
+                        <div class="col-lg-7 col-md-6 col-sm-6 col-6 pt-3">
+                            <h5>Shin Moe Yoon</h5>
+                            <small class="role">Head of Photography Department/Advertisement Department</small>
+                            <p class="aboutustext">Taking photos of beautiful scenery is not always the case. What about the truth and untold stories behind these photos? I will showcase the truth to the world along with GeoSurge!</p>
+                            <span><i class="bi bi-facebook"></i></span>
+                            <span><i class="bi bi-instagram"></i></span>
+                            <span><i class="bi bi-threads"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+     <!-- Footer -->
+<footer class="footer">
+    <div class="row row-footer">
+        <div class="col col_footer">
+            <img src="../Medias/logo.jpg" class="logo_footer" alt="GeoSurge">
+            <p>GeoSurge is committed to raising awareness about natural disasters and promoting safety awareness.</p>
+        </div>
+        <div class="col fone">
+            <h3>Location</h3>
+            <hr>
+            <p>4th Bogyoke Street</p>
+            <p>Yangon, Myanmar</p>  
+            <p class="email-id">geosurgeforthewin@gmail.com</p>
+            <h4>+95 9787497220</h4>
+        </div>
+        <div class="col fone">
+            <h3>Travel</h3>
+            <hr>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="natural_disasters.html">Natural Disasters</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+                <li><a href="competition.html">Special Events</a></li>
+                <li><a href="aboutus.html">About us</a></li>
+            </ul>
+        </div>
+        <div class="col fone">
+            <h3>Sign up <br> to get alerted</h3>
+            <hr>
+            <form>
+                <i class="bi bi-envelope"></i>
+                <input type="email" placeholder="Enter your E-mail" required>
+                <button type="submit"><i class="bi bi-arrow-right"></i></button>
+                <!-- onclick="alert('Hello world!')" -->
+            </form>
+            <div class="social-icons">
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-twitter"></i>
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-whatsapp"></i>
+            </div>
+        </div>
+    </div>
+        <hr>
+        <p class="copyright">© <a href="../references.txt" class="text-white text-decoration-none">Citation</a> | Sangria-Sapphire GeoSurge 2025 All Rights Reserved</p>
+</footer>
+<!-- End of Footer -->
+
+<!-- javascript -->
+<script>
+  // addevenlistener is used to command what the codes will when user does what
+  document.addEventListener('DOMContentLoaded',
+      function(){
+      // to select all navitems = queryselectorall
+        const  navItems = document.querySelectorAll('.nav-item');
+        console.log(navItems);
+
+      navItems.forEach( navigitem => {
+      // to add eventlistener click
+          navigitem.addEventListener('click',
+            function(){
+              navItems.forEach( navigitem => navigitem.classList.remove('active'));
+
+              this.classList.add('active');
+          });
+        });
+      });
+
+      AOS.init();
+</script>
+    
+</body>
+</html>
